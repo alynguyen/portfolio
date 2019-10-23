@@ -1,0 +1,23 @@
+.About {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: 'Montserrat';
+}
+
+.About img {
+  max-width: 14rem;
+  margin: 1rem;
+}
+
+.About h1 {
+  width: 100%;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.About p {
+  width: 50%;
+  margin: 1rem;
+  text-align: justify;
+}

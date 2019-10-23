@@ -1,0 +1,22 @@
+.Contact {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  height: 15rem;
+  font-family: 'Montserrat';
+}
+
+.Contact h1 {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.Contact a {
+  margin-right: 1rem;
+  font-size: 2em;
+}
+
+.Contact a:hover {
+  cursor: pointer;
+}

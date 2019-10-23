@@ -1,0 +1,45 @@
+.Projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: 'Montserrat';
+}
+
+.Projects-Links {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.Projects a {
+  margin-right: .5rem;
+}
+
+.Projects a:hover {
+  cursor: pointer;
+}
+
+.Projects-Img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.Projects h1 {
+  width: 100%;
+  text-align: center;
+  margin: 4rem auto;
+}
+
+.Projects h2 {
+  margin-bottom: 2rem;
+}
+
+.Projects img {
+  max-width: 30rem;
+  max-height: 20rem;
+}
+
+.Projects-Description {
+  width: 50%;
+}
