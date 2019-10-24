@@ -7,7 +7,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="Projects-Container">
         <div className="Projects-Img">
-          <img src="/images/hangergames.png" alt="Hanger Games" />
+          <img src="./images/hangergames.png" alt="Hanger Games" />
         </div>
         <div className="Projects-Description">
           <h2>Hanger Games</h2>
@@ -32,7 +32,7 @@ const Projects = () => {
       </div>
       <div className="Projects-Container">
         <div className="Projects-Img">
-          <img src="/images/wechefn.png" alt="WeChef'n" />
+          <img src="./images/wechefn.png" alt="WeChef'n" />
         </div>
         <div className="Projects-Description">
           <h2>WeChef'n</h2>
@@ -57,7 +57,7 @@ const Projects = () => {
       </div>
       <div className="Projects-Container">
         <div className="Projects-Img">
-          <img src="/images/eventb.png" alt="EventB" />
+          <img src="./images/eventb.png" alt="EventB" />
         </div>
         <div className="Projects-Description">
           <h2>EventB</h2>
@@ -82,7 +82,7 @@ const Projects = () => {
       </div>
       <div className="Projects-Container">
         <div className="Projects-Img">
-          <img src="/images/battleship.png" alt="Battleship" />
+          <img src="./images/battleship.png" alt="Battleship" />
         </div>
         <div className="Projects-Description">
           <h2>Battleship</h2>
