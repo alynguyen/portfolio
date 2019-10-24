@@ -14,7 +14,7 @@ const Contact = () => {
         <button 
           className="btn"
           onClick={() => window.open("https://www.linkedin.com/in/aly-nguyen/", "_blank")}>
-          LinkIn
+          LinkedIn
         </button>
         <button 
           className="btn"
