@@ -23,7 +23,7 @@ export class MainPage extends Component {
     return (
       <div>
         <Navbar />
-        <Parallax bgImage="/images/stars.jpg" strength={500}>
+        <Parallax bgImage="./images/stars.jpg" strength={500}>
           <div style={{ height: 500 }}>
             <div className="MainPage-Inside" style={insideStyles}>
               <span className="MainPage-Name">ALY NGUYEN</span><br />
