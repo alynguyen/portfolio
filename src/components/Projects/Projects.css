@@ -21,10 +21,15 @@
   width: 100%;
   text-align: center;
   margin: 4rem auto;
+  color: #665B95;
+  font-family: "Caveat";
+  font-size: 4em;
 }
 
 .Projects h2 {
   margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 .Projects img {
@@ -43,7 +48,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin: auto 3em;
+  margin: 3em 3em;
 }
 
 @media only screen and (max-width: 768px) {

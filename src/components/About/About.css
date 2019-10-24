@@ -15,6 +15,9 @@
   width: 100%;
   text-align: center;
   margin: 4rem auto;
+  color: #665B95;
+  font-family: "Caveat";
+  font-size: 4em;
 }
 
 .About p {

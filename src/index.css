@@ -29,9 +29,11 @@ code {
 
 .btn {
   background-color: white;
+  color: black;
 }
 
 .btn:hover {
   cursor: pointer;
   font-weight: bold;
+  color: #665B95;
 }
