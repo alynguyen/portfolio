@@ -3,9 +3,9 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className="About">
+    <div className="About" id="about">
       <h1>About</h1>
-      <img src="/images/profile.jpg" />
+      <img src="/images/profile.jpg" alt="about" />
       <p>
         Aly Nguyen has always been self-driven by curiosity. He attended San Francisco State University
         pursuing a degree in Business Information Systems to find his place in the tech world. While taking 

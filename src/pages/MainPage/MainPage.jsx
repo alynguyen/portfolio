@@ -12,7 +12,6 @@ const insideStyles = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%,-50%)",
-  fontSize: "4em",
   color: "white",
   fontFamily: "Montserrat",
   letterSpacing: ".2em",
@@ -26,8 +25,8 @@ export class MainPage extends Component {
         <Navbar />
         <Parallax bgImage="/images/stars.jpg" strength={500}>
           <div style={{ height: 500 }}>
-            <div style={insideStyles}>
-              ALY NGUYEN<br />
+            <div className="MainPage-Inside" style={insideStyles}>
+              <span className="MainPage-Name">ALY NGUYEN</span><br />
               <span className="MainPage-Title">
                 SOFTWARE ENGINEER
               </span>
