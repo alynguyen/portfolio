@@ -8,15 +8,16 @@ const Navbar = () => {
     <div id="home">
       <BsNav collapseOnSelect expand="sm" bg="light" variant="light" fixed="top">
         <BsNav.Brand>
-          <a href="#home" className="BsNav-Brand link nav-link">Aly Nguyen</a>
+          <AnchorLink href="#home" className="BsNav-Brand link nav-link">Aly Nguyen</AnchorLink>
         </BsNav.Brand>
         <BsNav.Toggle aria-controls="responsive-navbar-nav" />
         <BsNav.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
+            ljlk
           </Nav>
-          <a className="Navbar-Link link nav-link" href="#about">About</a>
-          <a className="Navbar-Link link nav-link" href="#projects">Projects</a>
-          <a className="Navbar-Link link nav-link" href="#contact">Contact</a>
+          <AnchorLink className="Navbar-Link link nav-link" href="#about">About</AnchorLink>
+          <AnchorLink className="Navbar-Link link nav-link" href="#projects">Projects</AnchorLink>
+          <AnchorLink className="Navbar-Link link nav-link" href="#contact">Contact</AnchorLink>
         </BsNav.Collapse>
       </BsNav>
     </div>
