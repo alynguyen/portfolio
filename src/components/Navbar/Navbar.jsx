@@ -5,7 +5,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <div>
+    <div id="home">
       <BsNav collapseOnSelect expand="sm" bg="light" variant="light" fixed="top">
         <BsNav.Brand>
           <AnchorLink href="#home" className="BsNav-Brand link nav-link">Aly Nguyen</AnchorLink>
@@ -17,6 +17,7 @@ const Navbar = () => {
           <AnchorLink className="Navbar-Link link nav-link" href="#about">About</AnchorLink>
           <AnchorLink className="Navbar-Link link nav-link" href="#projects">Projects</AnchorLink>
           <AnchorLink className="Navbar-Link link nav-link" href="#contact">Contact</AnchorLink>
+          <Nav.Link>Test</Nav.Link>
         </BsNav.Collapse>
       </BsNav>
     </div>
