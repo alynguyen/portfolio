@@ -5,7 +5,6 @@ const Contact = () => {
   return (
     <div className="Contact" id="contact">
       <h1>Contact</h1>
-      <div>
         <button 
           className="btn"
           onClick={() => window.open("mailto:alynguyen925@gmail.com", "_blank")}>
@@ -21,7 +20,6 @@ const Contact = () => {
           onClick={() => window.open("https://github.com/alynguyen", "_blank")}>
           GitHub
         </button>
-      </div>
     </div>
   );
 }
