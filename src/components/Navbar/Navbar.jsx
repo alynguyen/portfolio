@@ -17,7 +17,8 @@ const Navbar = () => {
         </BsNav.Brand>
         <BsNav.Toggle aria-controls="responsive-navbar-nav" />
         <BsNav.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="ml-auto">
+            <AnchorLink className="Navbar-Link nav-link" href="#about">About</AnchorLink>
             <AnchorLink style={navStyle} className="Navbar-Link nav-link" href="#about">About</AnchorLink>
             <AnchorLink style={navStyle} className="Navbar-Link nav-link" href="#projects">Projects</AnchorLink>
             <AnchorLink style={navStyle} className="Navbar-Link nav-link" href="#contact">Contact</AnchorLink>
