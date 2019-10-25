@@ -18,10 +18,9 @@ const Navbar = () => {
         <BsNav.Toggle aria-controls="responsive-navbar-nav" />
         <BsNav.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <AnchorLink className="Navbar-Link nav-link" href="#about">About</AnchorLink>
-            <AnchorLink style={navStyle} className="Navbar-Link nav-link" href="#about">About</AnchorLink>
-            <AnchorLink style={navStyle} className="Navbar-Link nav-link" href="#projects">Projects</AnchorLink>
-            <AnchorLink style={navStyle} className="Navbar-Link nav-link" href="#contact">Contact</AnchorLink>
+            <AnchorLink style={navStyle} className="Navbar-Link link nav-link" href="#about">About</AnchorLink>
+            <AnchorLink style={navStyle} className="Navbar-Link link nav-link" href="#projects">Projects</AnchorLink>
+            <AnchorLink style={navStyle} className="Navbar-Link link nav-link" href="#contact">Contact</AnchorLink>
           </Nav>
         </BsNav.Collapse>
       </BsNav>
