@@ -7,6 +7,30 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="Projects-Container">
         <div className="Projects-Img">
+          <img src="./images/travel.png" alt="Tiny's Travel Tricks" />
+        </div>
+        <div className="Projects-Description">
+          <h2>Tiny's Travel Tricks</h2>
+          <p>
+            Concept Project<br/>
+            React/Ruby on Rails/Postgres
+          </p>
+          <p>
+            Current project. Place where users can create travel notes for destinations around the world. Utilizes Google Places API 
+            to create new destinations. Destinations are mapped out using Google Maps API with custom markers.
+          </p>
+          <p className="Projects-Links">
+            <button className="btn" onClick={() => window.open("https://rails-travelblogtest.herokuapp.com/", "_blank")}>
+              Link
+            </button>
+            <button className="btn" onClick={() => window.open("https://github.com/alynguyen/rails-react-travel", "_blank")}>
+              GitHub
+            </button>
+          </p>
+        </div>
+      </div>
+      <div className="Projects-Container">
+        <div className="Projects-Img">
           <img src="./images/hangergames.png" alt="Hanger Games" />
         </div>
         <div className="Projects-Description">
